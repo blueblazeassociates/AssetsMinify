@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "63f1c5e7de07902188ab60b56d08e549",
+    "hash": "2b4d5666a91d3910746b4843edf4a7a9",
     "packages": [
+        {
+            "name": "blueblazeassociates/scssphp-compass",
+            "version": "0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueblazeassociates/scssphp-compass.git",
+                "reference": "575b65a7e1772496176fbef66ddc98e597e01b45"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "http://composer.blueblaze.co/dist/blueblazeassociates-scssphp-compass-575b65a7e1772496176fbef66ddc98e597e01b45-zip-7e69cc.tar",
+                "reference": "575b65a7e1772496176fbef66ddc98e597e01b45",
+                "shasum": "b45a5f2e1545c933b466963bf665c81e5c4b312a"
+            },
+            "require": {
+                "leafo/scssphp": ">=0.1"
+            },
+            "replace": {
+                "leafo/scssphp-compass": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "compass.inc.php"
+                ]
+            },
+            "license": [
+                "MIT",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Leaf Corcoran",
+                    "email": "leafot@gmail.com",
+                    "homepage": "http://leafo.net"
+                }
+            ],
+            "description": "Compass for scssphp",
+            "homepage": "http://leafo.net/scssphp/",
+            "support": {
+                "source": "https://github.com/blueblazeassociates/scssphp-compass/tree/0.0.2"
+            },
+            "time": "2015-05-08 17:34:36"
+        },
         {
             "name": "kriswallsmith/assetic",
             "version": "v1.2.1",
@@ -123,16 +167,16 @@
         },
         {
             "name": "leafo/scssphp",
-            "version": "dev-master",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leafo/scssphp.git",
-                "reference": "75db4524f22a19ca4ff36899c8d3be311d53f93d"
+                "reference": "8c08da585537e97efd528c7d278463d2b9396371"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leafo/scssphp/zipball/75db4524f22a19ca4ff36899c8d3be311d53f93d",
-                "reference": "75db4524f22a19ca4ff36899c8d3be311d53f93d",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/8c08da585537e97efd528c7d278463d2b9396371",
+                "reference": "8c08da585537e97efd528c7d278463d2b9396371",
                 "shasum": ""
             },
             "require": {
@@ -174,42 +218,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2015-04-15 18:02:44"
-        },
-        {
-            "name": "leafo/scssphp-compass",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leafo/scssphp-compass.git",
-                "reference": "f1631ddb17731326863954d99b39694f0bbed6ec"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leafo/scssphp-compass/zipball/f1631ddb17731326863954d99b39694f0bbed6ec",
-                "reference": "f1631ddb17731326863954d99b39694f0bbed6ec",
-                "shasum": ""
-            },
-            "require": {
-                "leafo/scssphp": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "compass.inc.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Leaf Corcoran",
-                    "email": "leafot@gmail.com",
-                    "homepage": "http://leafo.net"
-                }
-            ],
-            "description": "Compass for scssphp",
-            "homepage": "http://leafo.net/scssphp/",
-            "time": "2012-08-02 02:04:32"
+            "time": "2014-08-12 22:41:53"
         },
         {
             "name": "monolog/monolog",
@@ -965,8 +974,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "leafo/scssphp": 20,
-        "leafo/scssphp-compass": 20,
         "monolog/monolog": 20
     },
     "prefer-stable": false,
