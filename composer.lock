@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86f109c887ebebfd627116731fd3ca1c",
+    "hash": "ba482d2404483238b99b61b7c1823418",
     "packages": [
         {
             "name": "kriswallsmith/assetic",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "df991c124a2212371443b586a1be767500036dee"
+                "reference": "b20efe38845d20458702f97f3ff625d80805897b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/df991c124a2212371443b586a1be767500036dee",
-                "reference": "df991c124a2212371443b586a1be767500036dee",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/b20efe38845d20458702f97f3ff625d80805897b",
+                "reference": "b20efe38845d20458702f97f3ff625d80805897b",
                 "shasum": ""
             },
             "require": {
@@ -78,7 +78,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-10-14 14:45:32"
+            "time": "2014-12-12 05:04:05"
         },
         {
             "name": "leafo/lessphp",
@@ -127,12 +127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/leafo/scssphp.git",
-                "reference": "cc3e8945fc7a46350c09d3610f2714875b15954a"
+                "reference": "75db4524f22a19ca4ff36899c8d3be311d53f93d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leafo/scssphp/zipball/cc3e8945fc7a46350c09d3610f2714875b15954a",
-                "reference": "cc3e8945fc7a46350c09d3610f2714875b15954a",
+                "url": "https://api.github.com/repos/leafo/scssphp/zipball/75db4524f22a19ca4ff36899c8d3be311d53f93d",
+                "reference": "75db4524f22a19ca4ff36899c8d3be311d53f93d",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,7 @@
                 "scss",
                 "stylesheet"
             ],
-            "time": "2015-01-27 19:12:34"
+            "time": "2015-04-15 18:02:44"
         },
         {
             "name": "leafo/scssphp-compass",
@@ -213,16 +213,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.13.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac"
+                "reference": "5202b35099e880183e9bcbacdb01dc4346622800"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
-                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5202b35099e880183e9bcbacdb01dc4346622800",
+                "reference": "5202b35099e880183e9bcbacdb01dc4346622800",
                 "shasum": ""
             },
             "require": {
@@ -236,6 +236,7 @@
                 "aws/aws-sdk-php": "~2.4, >2.4.8",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
+                "php-console/php-console": "~3.1, >3.1.2",
                 "phpunit/phpunit": "~4.0",
                 "raven/raven": "~0.5",
                 "ruflin/elastica": "0.90.*",
@@ -248,6 +249,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
@@ -282,11 +284,11 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-03-09 09:58:04"
+            "time": "2015-05-05 17:26:17"
         },
         {
             "name": "mrclay/minify",
-            "version": "dev-master",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrclay/minify.git",
@@ -411,16 +413,16 @@
         },
         {
             "name": "ptachoire/cssembed",
-            "version": "dev-master",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/krichprollsch/phpCssEmbed.git",
-                "reference": "fe4cb93fb565e739c6ed2d726afcf35070804f60"
+                "reference": "406c6d5b846cafa9186f9944a6210d0e6fed154b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/krichprollsch/phpCssEmbed/zipball/fe4cb93fb565e739c6ed2d726afcf35070804f60",
-                "reference": "fe4cb93fb565e739c6ed2d726afcf35070804f60",
+                "url": "https://api.github.com/repos/krichprollsch/phpCssEmbed/zipball/406c6d5b846cafa9186f9944a6210d0e6fed154b",
+                "reference": "406c6d5b846cafa9186f9944a6210d0e6fed154b",
                 "shasum": ""
             },
             "require": {
@@ -448,27 +450,27 @@
                 "css",
                 "url"
             ],
-            "time": "2014-07-18 14:10:18"
+            "time": "2013-07-22 20:01:48"
         },
         {
             "name": "pulse00/monolog-parser",
-            "version": "dev-master",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pulse00/monolog-parser.git",
-                "reference": "2464f4afc6d7b06330a6b5ccf8f2503c783db331"
+                "reference": "134f89414f42c078c0a6d027c028496c4edfd863"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pulse00/monolog-parser/zipball/2464f4afc6d7b06330a6b5ccf8f2503c783db331",
-                "reference": "2464f4afc6d7b06330a6b5ccf8f2503c783db331",
+                "url": "https://api.github.com/repos/pulse00/monolog-parser/zipball/134f89414f42c078c0a6d027c028496c4edfd863",
+                "reference": "134f89414f42c078c0a6d027c028496c4edfd863",
                 "shasum": ""
             },
             "require": {
-                "monolog/monolog": "1.*"
+                "monolog/monolog": "dev-master"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.5"
+                "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
             "autoload": {
@@ -487,7 +489,7 @@
                 }
             ],
             "description": "A parser for monolog log entries",
-            "time": "2015-03-30 22:13:44"
+            "time": "2013-03-17 10:05:23"
         },
         {
             "name": "symfony/process",
@@ -964,10 +966,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "leafo/scssphp": 20,
-        "ptachoire/cssembed": 20,
         "leafo/scssphp-compass": 20,
-        "mrclay/minify": 20,
-        "pulse00/monolog-parser": 20
+        "monolog/monolog": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
