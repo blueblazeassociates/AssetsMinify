@@ -4,8 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b4d5666a91d3910746b4843edf4a7a9",
+    "hash": "cbb8c215bedfa50a9f4cf798d3611fa2",
     "packages": [
+        {
+            "name": "blueblazeassociates/monolog-parser",
+            "version": "0.0.2-p01",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blueblazeassociates/monolog-parser.git",
+                "reference": "d9f5508956f55568a5c951a9eb79073bec201ecf"
+            },
+            "dist": {
+                "type": "tar",
+                "url": "http://composer.blueblaze.co/dist/blueblazeassociates-monolog-parser-d9f5508956f55568a5c951a9eb79073bec201ecf-zip-5c43a6.tar",
+                "reference": "d9f5508956f55568a5c951a9eb79073bec201ecf",
+                "shasum": "92373d0f5c80786e723ac16f529d0ef99083625f"
+            },
+            "require": {
+                "monolog/monolog": "1.*"
+            },
+            "replace": {
+                "pulse00/monolog-parser": "0.0.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Dubture": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Gruendler",
+                    "email": "r.gruendler@gmail.com"
+                }
+            ],
+            "description": "A parser for monolog log entries",
+            "support": {
+                "source": "https://github.com/blueblazeassociates/monolog-parser/tree/0.0.2-p01"
+            },
+            "time": "2015-05-08 18:10:22"
+        },
         {
             "name": "blueblazeassociates/scssphp-compass",
             "version": "0.0.2",
@@ -222,16 +266,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "dev-master",
+            "version": "1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "5202b35099e880183e9bcbacdb01dc4346622800"
+                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5202b35099e880183e9bcbacdb01dc4346622800",
-                "reference": "5202b35099e880183e9bcbacdb01dc4346622800",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
+                "reference": "c31a2c4e8db5da8b46c74cf275d7f109c0f249ac",
                 "shasum": ""
             },
             "require": {
@@ -245,7 +289,6 @@
                 "aws/aws-sdk-php": "~2.4, >2.4.8",
                 "doctrine/couchdb": "~1.0@dev",
                 "graylog2/gelf-php": "~1.0",
-                "php-console/php-console": "~3.1, >3.1.2",
                 "phpunit/phpunit": "~4.0",
                 "raven/raven": "~0.5",
                 "ruflin/elastica": "0.90.*",
@@ -258,7 +301,6 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
                 "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
-                "php-console/php-console": "Allow sending log messages to Google Chrome",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "rollbar/rollbar": "Allow sending log messages to Rollbar",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
@@ -293,7 +335,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2015-05-05 17:26:17"
+            "time": "2015-03-09 09:58:04"
         },
         {
             "name": "mrclay/minify",
@@ -460,45 +502,6 @@
                 "url"
             ],
             "time": "2013-07-22 20:01:48"
-        },
-        {
-            "name": "pulse00/monolog-parser",
-            "version": "0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pulse00/monolog-parser.git",
-                "reference": "134f89414f42c078c0a6d027c028496c4edfd863"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pulse00/monolog-parser/zipball/134f89414f42c078c0a6d027c028496c4edfd863",
-                "reference": "134f89414f42c078c0a6d027c028496c4edfd863",
-                "shasum": ""
-            },
-            "require": {
-                "monolog/monolog": "dev-master"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Dubture": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Gruendler",
-                    "email": "r.gruendler@gmail.com"
-                }
-            ],
-            "description": "A parser for monolog log entries",
-            "time": "2013-03-17 10:05:23"
         },
         {
             "name": "symfony/process",
@@ -973,9 +976,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "monolog/monolog": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
